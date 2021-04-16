@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: century gothic;
+
+}
+
+header{
+    background-image:url(blue.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#new-window{
+    height: 17vh;
+}
+ul{float:right;
+    list-style-type: none;
+   margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff transparent;
+}
+ul li.active a{
+    background-color:#fff;
+    color: #000;
+}
+
+.hover-1 li a:hover{
+    background-color:#fff;
+    color: #000;
+    transition: 0.6s ease;
+}
+.logo img{
+    float:left;
+    width:150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{color: #fff;
+    font-size: 70px;
+
+}
+.button{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border:1px solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:#fff;
+    color: #000;
+    transition: 0.6s ease;
+}
+.register-form{
+    
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+.sign-up-form
+{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.register-form{
+    position:absolute;
+    top: 25%;
+    left: 40%;
+}
+.input-button{
+    position: absolute;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    left: 35%;
+    top: 35%;
+   text-decoration: none;
+
+}
+.input-button2{
+    position: absolute;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    left: 35%;
+    top: 47%;
+   text-decoration: none;
+
+}
+.input-button3{
+    position:absolute;
+    top: 60%;
+    left: 43%;
+    border:1px solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+    
+
+}
+.input-button3:hover{
+    background-color:#fff;
+    color: #000;
+    transition: 0.6s ease;
+}
+.input-button4{position: absolute;
+    top: 68%;
+    left: 43%;
+    text-decoration: none;
+   
+}
+.input-button4:hover
+{
+    color:#fff;
+    transition: 0.6s ease;
+}
+.input-button5{
+    position: absolute;
+    border:1px solid #fff;
+    padding: 10px 30px;
+    color:#fff;
+    text-decoration: none;
+}
+.input-button5:hover{
+    background-color: #fff;
+    color: #000;
+    transition:0.6s ease;
+}
+#new-button{
+    top: 75%;
+    left: 40%;
+}
+#new-button2{
+    color:#000;
+    top: 62%;
+}
+.heading{position:absolute;
+    top: 33%;
+    left:36%;
+}
+.heading2{
+    position:absolute;
+    top: 46%;
+    left: 36%;
+}
+#new-button3{
+    top: 48%;
+}
+.new-button4{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+}
+#new-button5{
+    top:75%;
+    left: 43%;
+}
+.image-active{position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.brand{position: absolute;
+    top: 25%;
+    left:5%;
+}
+.img-logo{position: absolute;
+        float: left;
+        top: 30%;
+}
+.footer-left{
+    position: absolute;
+    left: 70%;
+    
+   
+}
+.footer-left2{position: absolute;
+    left: 20%;
+}
+.footer-color{
+    background-image:url(grey.jfif);
+    height: 50vh;
+}
+.middle-head{
+    height: 50vh;
+}
+.middle-item-1{position: absolute;
+    top: 103%;
+    left: 5%;
+}
+.middle-item-2{
+    position: absolute;
+    top: 103%;
+    left: 40%;
+}
+.middle-item-3{
+    position: absolute;
+    top: 103%;
+    left: 70%;
+}
+.footer-logo{
+    position: absolute;
+    
+    left: 46.5%;
+    align-items: center;
+}
+
+ol li{
+    display: inline-block;
+}
+.image-li{
+    display: inline-block;
+   
+}
+.image-li:hover {
+    transform: (1.5);
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    
+}
+.middle-head-4{position: absolute;
+    top: 200%;
+}
+.border_new{
+    border: 10px solid transparent;
+   border-image: url(./blue.jpg);
+    padding: 25px;
+}
+.para-a{position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.image-over:hover{
+    transition: 0.6s ease; 
+       opacity: 0.3;
+
+}
+.image-over1 img{
+    filter:box-shadow(2px 4px 8px #fff);
+}
